@@ -8,13 +8,21 @@ table = dynamodb.create_table(
     TableName=table_name,
     KeySchema=[
         {
-            'AttributeName': 'message',
-            'KeyType': 'HASH'
+            'AttributeName': 'username',
+            'KeyType': 'HASH'  #Partition key
+        },
+        {
+            'AttributeName': 'timestamp',
+            'KeyType': 'RANGE'  #Sort key
         }
     ],
     AttributeDefinitions=[
         {
-            'AttributeName': 'message',
+            'AttributeName': 'username',
+            'AttributeType': 'S'
+        },
+        {
+            'AttributeName': 'timestamp',
             'AttributeType': 'S'
         }
     ],
