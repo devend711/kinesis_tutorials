@@ -1,0 +1,17 @@
+[
+  {
+		"username": "bob",
+		"message": "my first tweet",
+		"timestamp": "2019-06-10T10:28:51-04:00"
+	},
+	{
+		"username": "deven",
+		"message": "my first tweet",
+		"timestamp": "2019-07-31T08:38:51-04:00"
+	},
+	{
+		"username": "bob",
+		"message": "love 2 tweet",
+		"timestamp": "2019-07-31T10:38:51-04:00"
+	}
+]
