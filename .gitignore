@@ -1,2 +1,3 @@
 .DS_Store
-twitter_creds.py
+creds.py
+config.py
